@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Information</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+</head>
+<body>      
+    <p>Denotes required information</p>
+            
+             <h1 class="first">Donor Information</h1>
+    <!-- Simple Registration Form -->
+    <form method="post">
+
+        <fieldset>
+            <legend></legend>
+            <label for="first name">First Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" name="name" required><br><br>
+
+             <label for="last name">Last Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" name="name" required><br><br>
+
+              <label for="Company">company:</label>
+            <input type="text" id="company" placeholder="Enter your company" name="company" required><br><br>
+
+             <label for="Address1">Address1:</label>
+            <input type="text" id="Address1" placeholder="Enter your Address1" name="Address1" required><br><br>
+
+            <label for="Address2">Address2:</label>
+            <input type="text" id="Address2" placeholder="Enter your Address2" name="Address2" required><br><br>
+
+            <label for="City">City:</label>
+            <input type="text" id="City" placeholder="City" name="City" required><br><br>
+
+             <label>State:</label>
+            <select name="State">
+                <option>Barishal</option>
+                <option>Rangpur</option>
+                <option>Rajshahi</option>
+                <option>Dhaka</option>
+                <option>Khulna</option>
+                <option>Chittagong</option>
+                <option>Sylhet</option>
+                <option>Mymensingh</option>
+            </select><br><br>
+
+             <label for="Zip code">Zip code:</label>
+            <input type="text" id="Zip code" placeholder="Zip code" name="Zip code" required><br><br>
+
+            <label>Country:</label>
+            <select name="Country">
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>Germany</option>
+                <option>Qatar</option>
+                <option>Canada</option>
+                <option>USA</option>
+                <option>GERMANY</option>
+            </select><br><br>
+            
+            
+             <label for="Phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Phone" name="Phone" required><br><br>
+
+               <label for="Fax">Fax:</label>
+            <input type="text" id="Fax" placeholder="Fax" name="Fax" required><br><br>
+            
+
+
+
+     
+                 <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+               <br>
+                <tr>
+                    <td><label>Donation Amount:</label></td>
+                    <td>
+                        <input type="radio" name="None" value="None"> None
+                        <input type="radio" name="$50" value="$50"> $50
+                        <input type="radio" name="$75" value="$75"> $75
+                        <input type="radio" name="$100" value="$100"> $100
+                        <input type="radio" name="$250" value="$250"> $250
+                        <input type="radio" name="Other" value="Other"> Other
+                    </td>
+                </tr>
+                <br>
+                <label for="Other amount $">Other amount$:</label>
+            <input type="text" id="Other amount" placeholder="Other amount" name="Other amount" required><br><br>
+            <br>
+             <tr>
+                    <td><label>Recurring Donation:</label></td>
+                    <td>
+                        <input type="checkbox" value="I am interested"> I am interested in giving on a regular basis
+                        
+                    </td>
+                </tr>
+           
+            </fieldset>
+            <br>
+              <button>Submit</button>
+               <br>
+                 <button>Reset</button>
+                <br>
+                <a href="index.html">Back to home</a> 
+</body>
+
+</html>
